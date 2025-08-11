@@ -1,0 +1,59 @@
+# How to Create a Private GitHub Repository from Your Local Folder
+
+## Step-by-Step Instructions
+
+1. **Create a new private repository on GitHub:**
+   - Go to https://github.com/new
+   - Set the repository name (e.g., `QR-Code-generator`)
+   - Set visibility to **Private**
+   - Do NOT initialize with a README, .gitignore, or license (leave them unchecked)
+   - Click **Create repository**
+
+2. **Open PowerShell in your project folder:**
+   - Navigate to your folder:
+     ```powershell
+     cd "C:\Users\caiod\Documents\Coding\Experimentos\QR Code generator"
+     ```
+
+3. **Initialize a local git repository:**
+   ```powershell
+   git init
+   ```
+
+4. **Add all files and commit:**
+   ```powershell
+   git add .
+   git commit -m "Initial commit"
+   ```
+
+5. **Add the remote repository:**
+   - Replace `<your-username>` and `<repo-name>` with your GitHub username and the repository name you created.
+   ```powershell
+   git remote add origin https://github.com/<your-username>/<repo-name>.git
+   ```
+
+6. **Push to GitHub:**
+   ```powershell
+   git branch -M main
+   git push -u origin main
+   ```
+
+7. **Done!**
+
+---
+
+## Script Option (PowerShell)
+
+Replace `<your-username>` and `<repo-name>` before running:
+
+```powershell
+cd "C:\Users\caiod\Documents\Coding\Experimentos\QR Code generator"
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/<your-username>/<repo-name>.git
+git branch -M main
+git push -u origin main
+```
+
+> You must first create the private repository on GitHub as described in step 1.

@@ -1,0 +1,3 @@
+Esse código foi um código do programa de artefatos do Claude AI que achei e fiquei curioso, esse é um arquivo .TSX que é Java script, muito interessante, esse código é uma das soluções que mais tenho interesse, quero agora poder altera-lo e usar para o meu projeto de identificação rápida, esse aplicativo permite guardar dados em um QR code gerado, como texto, contato e URL de vários outros endereços, a alteração poderia permitir muitos outros usos para o código, guardando para uso futuro.
+
+Os dois arquivos foram criador pelo modelo do Claude Sonnet 4 com alguns prompts para teste desse aplicativo, considerando a nomenclatura usada para descrever esse programa penso se o streamlit poderia fazer o mesmo em python.
